@@ -15,6 +15,10 @@
     border-radius: 0px 0px 4px 4px;
 }
 
+.team {
+    @extend %section;
+}
+
 .team__img {
     width: 270px;
     height: 260px;

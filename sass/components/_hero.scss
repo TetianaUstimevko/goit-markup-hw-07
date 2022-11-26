@@ -1,4 +1,8 @@
 .hero {
+    @extend %section;
+}
+
+.hero {
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;

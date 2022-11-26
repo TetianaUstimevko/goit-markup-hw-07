@@ -1,4 +1,9 @@
 .about {
+    @include section;
+    //використала міксин
+}
+
+.about {
     padding-top: 0;
 }
 

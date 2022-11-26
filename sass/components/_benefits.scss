@@ -1,12 +1,17 @@
 .benefits {
+    @extend %section;
+    //використала плейсхолдер
+}
+
+.benefits__list {
     display: flex;
 }
 
-.benefits__list:not(:last-child) {
+.benefits__items:not(:last-child) {
     margin-right: 30px;
 }
 
-.icon-container {
+.benefits-icon__container {
     display: flex;
     background-color: #f5f4fa;
     border-radius: 4px;
