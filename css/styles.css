@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-color: #212121;
   --secondary-color: #f5f4fa;
   --accent-color: #e5e5e5;
@@ -14,16 +14,20 @@
   --items: 3;
   /* animation */
   --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* base css */
+
+/* body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-color);
   background-color: var(--common-white);
   font-size: var(--text-size);
-}
+} */
+
 /* reset start */
-h1,
+
+/* h1,
 h2,
 h3,
 h4,
@@ -46,21 +50,23 @@ p {
 
 img {
   display: block;
-}
+} */
 
 /* reset end */
-.section {
+
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.container {
+} */
+
+/* .container {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
   /* outline: 2px solid red; */
-}
+} */
 
 .card-set {
   display: flex;
@@ -245,7 +251,8 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
-.visually-hidden {
+
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -256,7 +263,7 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
 /* BENEFITS */
 /* .benefits-container {
