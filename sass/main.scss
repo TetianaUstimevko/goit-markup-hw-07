@@ -7,21 +7,23 @@
 // base styles
 @import './base/base';
 @import './base/reset';
-@import './base/card-set';
 
 // components styles
 @import './components/section';
 @import './components/container';
 //@import './components/typography';
-@import './components/header';
 @import './components/logo';
 @import './components/nav';
-@import './components/hero';
-@import './components/benefits';
-@import './components/about';
-@import './components/team';
-@import './components/clients';
 @import './components/socials';
-@import './components/footer';
-@import './components/portfolio';
 @import './components/modal';
+@import './components/card-set';
+
+// layout styles
+@import './layout/header';
+@import './layout/hero';
+@import './layout/benefits';
+@import './layout/about';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/portfolio';
